@@ -32,7 +32,7 @@ void main() {
         Gausslegendre(a,b,n);
         break;
 
-        case 4:
+        case 3:
         printf("Using 4-point formula:: ");
         Gausslegendre(a,b,n);
         break;
