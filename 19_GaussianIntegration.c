@@ -22,17 +22,17 @@ void main() {
     printf("Enter 4 for 4-point formula: ");
     scanf("%d",&n);
     switch(n) {
-        case 1:
+        case 2:
         printf("Using 2-point formula:: ");
         Gausslegendre(a,b,n);
         break;
 
-        case 2:
+        case 3:
         printf("Using 3-point formula:: ");
         Gausslegendre(a,b,n);
         break;
 
-        case 3:
+        case 4:
         printf("Using 4-point formula:: ");
         Gausslegendre(a,b,n);
         break;
