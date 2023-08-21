@@ -21,7 +21,7 @@ int main() {
         sumXY=sumXY+x[i]*y[i];
     }
     b=(n*sumXY-sumX*sumY)/(n*sumX2-sumX*sumX);
-    a=(sumY-b*sumX)/n;
+    a=(sumY-b*sumX);
     printf("Values are: a=%.2f and b=%.2f \n",a,b);
     printf("Equation of best fit is: y=%.2f + %.2fx\n",a,b);
 }
